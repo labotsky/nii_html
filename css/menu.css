@@ -64,7 +64,8 @@
   text-decoration: none;
   font-size: 13px;
   font-weight: 700;
-  color: #d3eced;
+  color: #fff;
+  text-shadow:1px 1px 2px #000;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -179,14 +180,6 @@
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li.active > a {
   color: #333333;
-}
-#cssmenu ul ul li:first-child > a {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-}
-#cssmenu ul ul li:last-child > a {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
 }
 #cssmenu > ul > li > ul::after {
   position: absolute;
